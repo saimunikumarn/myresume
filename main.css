@@ -1,0 +1,111 @@
+.flex-parent
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap:nowrap;
+}
+.profile{
+  border-radius: 50%;
+  border: 0px solid black;
+  image-resolution: from-image;
+  padding: 0px;
+  display: block;
+  margin: auto;
+  height:150px;
+  width: 150px;
+}
+.left{
+  height:auto;
+  width: 20%;
+  border-right: :2px;
+  border-style: solid;
+  border-color: blue;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+  margin:2;
+  padding:0;
+  margin-right: 5px;
+}
+.row{
+  text-align :center;
+  text-transform: uppercase;
+}
+.right{
+  height:auto;
+  width: 100%;
+  border:2;
+  border-style: solid;
+  border-color: black;
+  margin:5px;
+}
+.body{
+  background-color: #0EDCD5;
+  border-style: solid;
+  margin-right : 1 px;
+  margin-left : 1 px;
+  margin-bottom: 0 px;
+  /* border-radius: 0%;
+  border-color: black; */
+}
+.button1{
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 25px;
+  border-radius: 8px;
+  float:inherit;
+  font-size:20px;
+  margin: 7px;
+  padding: 20px;
+  width:auto;
+  transition: all 1m;
+  cursor:pointer;
+  box-shadow: 0 9px #999;
+}
+.button1:hover span {
+  padding-right: 25px;
+  background-color: black;
+  padding-bottom: 0px;
+}
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.top {
+    background-color: lightgrey;
+    width: auto;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    align:center;
+    text-align: center;
+}
